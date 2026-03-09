@@ -26,6 +26,17 @@ jobs:
           php-version: "${{ matrix.php-version }}"
           ini-file: development
           coverage: none
+      - name: Cache dependencies installed with composer
+        uses: actions/cache@v5
+        with:
+          key: "php${{ matrix.php-version }}
+               -composer-${{ hashFiles('**/composer.lock') }}"
+          path: ~/.composer/cache
+          restore-keys: "php${{ matrix.php-version }}-composer-\n"
+      - name: Install composer dependencies
+        run: |
+          composer install --no-ansi --no-interaction --no-progress
+          composer show
       - name: Run PHP lint
         run: "composer check:php:lint"
 
