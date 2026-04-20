@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b41e01fa6616d6f785c0789b539bd13",
+    "content-hash": "0091ce153fc332d91ec738220790a33d",
     "packages": [],
     "packages-dev": [
         {
@@ -2123,11 +2123,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.49",
+            "version": "2.1.50",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d0082955396e7f5ba19cf298224b85e1099f0ed8",
-                "reference": "d0082955396e7f5ba19cf298224b85e1099f0ed8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
+                "reference": "d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
                 "shasum": ""
             },
             "require": {
@@ -2172,7 +2172,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-16T21:10:58+00:00"
+            "time": "2026-04-17T13:10:32+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -3555,16 +3555,16 @@
         },
         {
             "name": "rector/type-perfect",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/type-perfect.git",
-                "reference": "dff8f1fe24be635f428c98de147f227af7caf58a"
+                "reference": "5ba40eca0903de8e33a7beb575b2feaa25948d18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/type-perfect/zipball/dff8f1fe24be635f428c98de147f227af7caf58a",
-                "reference": "dff8f1fe24be635f428c98de147f227af7caf58a",
+                "url": "https://api.github.com/repos/rectorphp/type-perfect/zipball/5ba40eca0903de8e33a7beb575b2feaa25948d18",
+                "reference": "5ba40eca0903de8e33a7beb575b2feaa25948d18",
                 "shasum": ""
             },
             "require": {
@@ -3592,7 +3592,7 @@
             "description": "Next level type declaration checks",
             "support": {
                 "issues": "https://github.com/rectorphp/type-perfect/issues",
-                "source": "https://github.com/rectorphp/type-perfect/tree/2.1.3"
+                "source": "https://github.com/rectorphp/type-perfect/tree/2.1.4"
             },
             "funding": [
                 {
@@ -3604,7 +3604,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-14T08:59:21+00:00"
+            "time": "2026-04-17T23:36:51+00:00"
         },
         {
             "name": "sanmai/di-container",
