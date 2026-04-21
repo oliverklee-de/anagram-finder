@@ -93,8 +93,8 @@
             "@check:tests:unit",
             "@check:tests:functional"
         ],
-        "check:tests:functional": "phpunit tests/Functional",
-        "check:tests:unit": "phpunit tests/Unit",
+        "check:tests:functional": "phpunit --config=./Build/phpunit/config.xml tests/Functional",
+        "check:tests:unit": "phpunit --config=./Build/phpunit/config.xml tests/Unit",
         "fix": [
             "@fix:composer",
             "@fix:php:rector"
