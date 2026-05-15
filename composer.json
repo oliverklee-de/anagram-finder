@@ -27,7 +27,7 @@
         "php": "~8.3.0 || ~8.4.0"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "^2.51.0",
+        "ergebnis/composer-normalize": "^2.52.0",
         "friendsofphp/php-cs-fixer": "^3.95.2",
         "infection/infection": "^0.32.7",
         "php-parallel-lint/php-parallel-lint": "^1.4",
