@@ -22,9 +22,7 @@ class AnagramFinder
 
         foreach ($words as $word) {
             $sortedCharacters = $sorter->sort($word);
-            if (!isset($potentialAnagrams[$sortedCharacters])) {
-                $potentialAnagrams[$sortedCharacters] = [];
-            }
+            $potentialAnagrams[$sortedCharacters] ??= [];
             $potentialAnagrams[$sortedCharacters][] = $word;
         }
 
